@@ -859,7 +859,7 @@ class PikIntercomAPI:
 
         return IotActiveCallSession.create_from_dict(self, resp_data)
 
-    async def iot_update_call_sessions(
+    async def iot_update_call_sess1ions(
         self, max_pages: Optional[int] = 1
     ) -> dict[int, IotCallSession]:
         retrieved_objects = {}
